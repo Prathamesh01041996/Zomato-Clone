@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  width: 400px;
+}
+
+.close {
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.phone-login {
+  width: 100%;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  width: 400px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.phone-input .flag {
+  margin-right: 5px;
+}
+
+.phone-input input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 5px;
+}
+
+.otp-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff4757;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 2rem;
+}
+
+.existing-user {
+  margin-top: 1rem;
+  font-size: 14px;
+  margin-right: 190px;
+}
+
+.existing-user a {
+  color: rgb(239, 79, 95);
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+
+
+/* Google bttn*/
+.google-login-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.google-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.google-login {
+  border: none;
+  background: none;
+  color: #757575;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* email button*/
+.email-login-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #5b6de6;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+.email-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.create-account {
+  border: none;
+  background: none;
+  color: #ece1e1;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* divider */
+.divider-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 1rem 0px 1rem;
+}
+
+.divider {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  width: 100%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  padding: 0px;
+}
+
+.or {
+  position: absolute;
+  padding: 0.1rem 0.6rem 0.5rem 0.5rem;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(105, 105, 105);
+}
+
+.validation-text {
+  color: red;
+  font-size: 10px;
+  text-align: left;
+  margin-left: px;
+  margin-top: 5px;
+}
+
+.new-user{
+  font-size: 12px;
+}
+
+.agree {
+  font-size: 15px;
+  color: rgb(105, 105, 105);
+}
+
+.policy {
+  text-decoration: none;
+  font-weight: 200;
+  color: rgb(239, 79, 95);
+}
+

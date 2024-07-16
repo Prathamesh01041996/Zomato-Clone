@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Modal</title>
+    <link rel="stylesheet" href="./styles/logincss/loginStyles.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-content">
+        <section class="modal-header">
+          <h2>Login</h2>
+          <span class="close">&times;</span>
+        </section>
+        <div class="login-options">
+          <div class="phone-login">
+            <div class="phone-input">
+              <img class ="flag" src="./assets/india.png">
+              <input type="text" placeholder="+91 Phone" />
+            </div>
+            <button class="otp-button">Send One Time Password</button>
+          </div>
+
+          <div class="divider-container">
+            <hr class="divider" />
+            <span class="or">or</span>
+          </div>
+
+          <div class="email-login-container">
+            <img
+              src="./assets/message.png"
+              alt="email Logo"
+              class="email-logo"
+            />
+            <button class="email-login">Continue with Email</button>
+          </div>
+
+          <div class="google-login-container">
+            <img
+              src="./assets/google.png"
+              alt="Google Logo"
+              class="google-logo"
+            />
+            <button class="google-login">Sign in with Google</button>
+          </div>
+        </div>
+        <hr class="divider" />
+        <p class="new-user">New to Zomato? <a href="#">Create account</a></p>
+      </div>
+    </div>
+  </body>
+</html>
